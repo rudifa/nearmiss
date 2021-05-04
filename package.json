@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+    "pretty": "prettier --write \"./src/**/*.{js,jsx,json}\""
   },
   "author": "MDN and Rudi Farkas",
   "license": "ISC",

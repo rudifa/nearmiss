@@ -8,11 +8,10 @@
 # Logfiles
 **/*.log
 
-# Prettier
-.cache/
 
 # Build results
 dist/
+.cache/
 
 # Dependency directories
 node_modules/
