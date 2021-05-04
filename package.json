@@ -1,0 +1,27 @@
+{
+  "name": "nearmiss",
+  "version": "1.0.0",
+  "description": "demo from MDN Introducing_complete_toolchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "author": "MDN and Rudi Farkas",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.25.0",
+    "eslint-plugin-react": "^7.23.2",
+    "parcel-bundler": "^1.12.5",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.21.1",
+    "format-number": "^3.0.0",
+    "react": "^17.0.2",
+    "react-async-hook": "^3.6.2",
+    "react-dom": "^17.0.2"
+  }
+}
